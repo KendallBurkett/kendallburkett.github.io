@@ -2,7 +2,7 @@
   "name": "kendallburkett.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kendallburkett.github.io",
+  "homepage": "https://kendallburkett.github.io/kendallburkett.io/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
