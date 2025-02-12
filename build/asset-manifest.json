@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e141242e.css",
-    "main.js": "/static/js/main.31ad9ad4.js",
-    "index.html": "/index.html",
-    "main.e141242e.css.map": "/static/css/main.e141242e.css.map",
-    "main.31ad9ad4.js.map": "/static/js/main.31ad9ad4.js.map"
+    "main.css": "/kendallburkett.io/static/css/main.e141242e.css",
+    "main.js": "/kendallburkett.io/static/js/main.31ad9ad4.js",
+    "index.html": "/kendallburkett.io/index.html",
+    "main.e141242e.css.map": "/kendallburkett.io/static/css/main.e141242e.css.map",
+    "main.31ad9ad4.js.map": "/kendallburkett.io/static/js/main.31ad9ad4.js.map"
   },
   "entrypoints": [
     "static/css/main.e141242e.css",
