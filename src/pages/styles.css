@@ -174,15 +174,11 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Display Resume as an Image */
-.resume-image {
+/* Display Resume as an Embedded PDF */
+.resume-pdf {
     width: 100%;
-    max-width: 900px; /* Adjust to fit natural resume size */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 100vh; /* Full viewport height */
+    border: none;
 }
 
 /* Download Link */

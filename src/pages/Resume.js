@@ -6,8 +6,12 @@ function Resume() {
     <div className="resume-container">
       <h2>My Resume</h2>
 
-      {/* Display Resume as an Image */}
-      <img src="/Kendall_Burkett_Resume.png" alt="Kendall Burkett Resume" className="resume-image" />
+      {/* Display Resume as an Embedded PDF */}
+      <iframe
+        src="/Kendall_Burkett_Resume.pdf"
+        className="resume-pdf"
+        title="Kendall Burkett Resume"
+      ></iframe>
 
       {/* Download Link for PDF */}
       <p>
