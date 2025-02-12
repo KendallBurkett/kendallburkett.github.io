@@ -198,3 +198,68 @@ footer {
     background: #ffd700;
     transform: scale(1.05);
 }
+
+/* Portfolio Styling */
+#portfolio {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .portfolio-title {
+    color: #f4d03f;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-carousel {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .portfolio-item {
+    padding: 15px;
+  }
+  
+  .portfolio-card {
+    background: #2d3b55;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .repo-thumbnail {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .portfolio-card h3 {
+    color: #f4d03f;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .portfolio-card p {
+    color: #ccc;
+    font-size: 1rem;
+  }
+  
+  .portfolio-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4d03f;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .portfolio-card a:hover {
+    color: #ffd700;
+  }
