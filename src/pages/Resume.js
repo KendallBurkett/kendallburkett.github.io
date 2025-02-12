@@ -1,19 +1,20 @@
-import React from "react"
+import React from "react";
 import "./styles.css";
 
 function Resume() {
   return (
-    <div className="page">
-      <h1>Resume</h1>
-      <p>Click below to view or download my resume:</p>
-      <a href="/Kendall_Burkett_Resume.pdf" target="_blank" rel="noopener
+    <div className="resume-container">
+      <h2>My Resume</h2>
 
- noreferrer">
-        <button>View Resume</button>
-      </a>
-      <a href="/Kendall_Burkett_Resume.pdf" download>
-        <button>Download Resume</button>
-      </a>
+      {/* Display Resume as an Image */}
+      <img src="/Kendall_Burkett_Resume.png" alt="Kendall Burkett Resume" className="resume-image" />
+
+      {/* Download Link for PDF */}
+      <p>
+        <a href="/Kendall_Burkett_Resume.pdf" download="Kendall_Burkett_Resume.pdf" className="download-link">
+          Click to Download PDF
+        </a>
+      </p>
     </div>
   );
 }
