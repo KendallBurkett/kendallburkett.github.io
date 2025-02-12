@@ -1,0 +1,157 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background: #101c3a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 1rem 0;
+    background: #101c3a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Timeline Section */
+#timeline {
+    padding: 40px;
+    text-align: center;
+}
+
+#timeline h2 {
+    color: #f4d03f;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Timeline Grid Layout */
+.timeline-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Timeline Cards */
+.timeline-card {
+    background: #2d3b55;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* Timeline Icons */
+.timeline-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Timeline Content */
+.timeline-details h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #f4d03f;
+}
+
+.timeline-details p {
+    font-size: 1rem;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+/* Contact Page - Centering and Styling */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto; /* Centers it on the page */
+    padding: 30px;
+    background: #2d3b55;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Highlight "Contact Me" in Yellow */
+.contact-title {
+    color: #f4d03f;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Contact Links */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #f4d03f; /* Yellow */
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #f4d03f;
+    border-radius: 8px;
+    transition: color 0.3s ease, background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-links a:hover {
+    color: #101c3a;
+    background: #f4d03f; /* Yellow on hover */
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
